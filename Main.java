@@ -1,14 +1,14 @@
 //AMRITHA SUSAN JACOB C0753813
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		int choice = 0;
-		
-		
-		while (choice != 4) {
+		ArrayList<Shape> list=new ArrayList<Shape>();
+		Shape obj = new Shape();
+		while (choice != 3) {
 			// 1. show the menu
 			showMenu();
 	
@@ -19,6 +19,8 @@ public class Main {
 			// 3. DEBUG: Output what the user typed in 
 			System.out.println("You entered: " + choice);
 			System.out.println();
+			
+			
 		}
 	}
 	
@@ -27,8 +29,7 @@ public class Main {
 		System.out.println("==============");
 		System.out.println("1. Triangle");
 		System.out.println("2. Square");
-		System.out.println("3. Rectangle");
-		System.out.println("4. Exit");
+		System.out.println("3. Exit");
 	}
 
 }
