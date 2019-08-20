@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Triangle extends Shape implements TwoDimensionalShapeInterface {
 
 	public Triangle() {
-		
+		super("blue");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -48,7 +48,7 @@ public class Triangle extends Shape implements TwoDimensionalShapeInterface {
 		// TODO Auto-generated method stub
 		System.out.println("base of triangle "+getBase());
 		System.out.println("height of triangle "+getHeight());
-		
+		System.out.println("color of triangle "+getColor());
 		
 	}
 

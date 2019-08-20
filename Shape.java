@@ -29,9 +29,9 @@ public class Shape {
 	public void setShapeobj(String shapeobj) {
 		this.shapeobj = shapeobj;
 	}
-	public Shape()
+	public Shape(String c)
 	{
-		
+		this.color=c;
 	}
 	
 

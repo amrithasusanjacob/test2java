@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Square extends Shape implements TwoDimensionalShapeInterface {
     
     public Square() {
-		
+		super("pink");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -18,7 +18,7 @@ public class Square extends Shape implements TwoDimensionalShapeInterface {
     public void getdimension()
     {Scanner keyboard = new Scanner(System.in);
     	System.out.println(" Enter side of  square");
-    	setSide(keyboard.nextInt());
+    	setSide(keyboard.nextInt());   	
     	double area=calculateArea();
     	printInfo();
     }
@@ -34,6 +34,7 @@ public class Square extends Shape implements TwoDimensionalShapeInterface {
 		System.out.println("area of square "+getAr());
 		// TODO Auto-generated method stub
 		System.out.println("side of square "+getSide());
+		System.out.println("color of Square "+getColor());
 		
 	}
 
