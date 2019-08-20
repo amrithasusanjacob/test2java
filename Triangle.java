@@ -24,7 +24,7 @@ public class Triangle extends Shape implements TwoDimensionalShapeInterface {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	  public void getdimension()
+	  public void getdimensions()
 	    {Scanner keyboard = new Scanner(System.in);
 	    	System.out.println(" Enter base of triangle");
 	    	setBase(keyboard.nextInt());

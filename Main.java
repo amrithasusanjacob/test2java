@@ -22,11 +22,11 @@ public class Main {
 			System.out.println();
 			if(choice==1)
 			{
-				obj1.getdimension();
+				obj2.getdimensions();
 			}
 			else if(choice==2)
 			{
-				obj2.getdimension();
+				obj1.getdimension();
 			}
 			
 		}

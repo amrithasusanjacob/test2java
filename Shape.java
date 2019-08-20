@@ -33,9 +33,6 @@ public class Shape {
 	{
 		
 	}
-	public void getdimension()
-	{
-		
-	}
+	
 
 }
