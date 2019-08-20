@@ -2,7 +2,7 @@
 public class Shape {
 
 	private String color;
-    private String shapeobj;
+    
     private double ar;
     
     
@@ -22,13 +22,8 @@ public class Shape {
 		this.color = color;
 	}
 	
-	public String getShapeobj() {
-		return shapeobj;
-	}
-
-	public void setShapeobj(String shapeobj) {
-		this.shapeobj = shapeobj;
-	}
+	
+	
 	public Shape(String c)
 	{
 		this.color=c;
