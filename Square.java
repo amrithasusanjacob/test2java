@@ -31,8 +31,9 @@ public class Square extends Shape implements TwoDimensionalShapeInterface {
 
 	@Override
 	public void printInfo() {
-		System.out.println("area of square"+getAr());
+		System.out.println("area of square "+getAr());
 		// TODO Auto-generated method stub
+		System.out.println("side of square "+getSide());
 		
 	}
 

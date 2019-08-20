@@ -44,8 +44,11 @@ public class Triangle extends Shape implements TwoDimensionalShapeInterface {
 	@Override
 	public void printInfo() {
 		
-		System.out.println("area of triangle"+getAr());
+		System.out.println("area of triangle "+getAr());
 		// TODO Auto-generated method stub
+		System.out.println("base of triangle "+getBase());
+		System.out.println("height of triangle "+getHeight());
+		
 		
 	}
 
