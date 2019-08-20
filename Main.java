@@ -7,7 +7,8 @@ public class Main {
 		Scanner keyboard = new Scanner(System.in);
 		int choice = 0;
 		ArrayList<Shape> list=new ArrayList<Shape>();
-		Shape obj = new Shape();
+		Square obj1= new Square();
+		Triangle obj2 = new Triangle();
 		while (choice != 3) {
 			// 1. show the menu
 			showMenu();
@@ -19,7 +20,14 @@ public class Main {
 			// 3. DEBUG: Output what the user typed in 
 			System.out.println("You entered: " + choice);
 			System.out.println();
-			
+			if(choice==1)
+			{
+				obj1.getdimension();
+			}
+			else if(choice==2)
+			{
+				obj2.getdimension();
+			}
 			
 		}
 	}

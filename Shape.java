@@ -4,6 +4,8 @@ public class Shape {
 	private String color;
     private String shapeobj;
     private double ar;
+    
+    
 	public double getAr() {
 		return ar;
 	}
@@ -28,6 +30,10 @@ public class Shape {
 		this.shapeobj = shapeobj;
 	}
 	public Shape()
+	{
+		
+	}
+	public void getdimension()
 	{
 		
 	}

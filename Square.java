@@ -1,8 +1,9 @@
+import java.util.Scanner;
 
 public class Square extends Shape implements TwoDimensionalShapeInterface {
-
-    public Square(int choice) {
-		super();
+    
+    public Square() {
+		
 		// TODO Auto-generated constructor stub
 	}
 
@@ -14,17 +15,23 @@ public class Square extends Shape implements TwoDimensionalShapeInterface {
 	public void setSide(int side) {
 		this.side = side;
 	}
-
+    public void getdimension()
+    {Scanner keyboard = new Scanner(System.in);
+    	System.out.println(" Enter side of  square");
+    	setSide(keyboard.nextInt());
+    	double area=calculateArea();
+    	printInfo();
+    }
 	@Override
 	public double calculateArea() {
 		// TODO Auto-generated method stub
-	double ar = side*side;
-		return 0;
+	setAr(side*side);
+		return side*side;
 	}
 
 	@Override
 	public void printInfo() {
-		System.out.println("area of square");
+		System.out.println("area of square"+getAr());
 		// TODO Auto-generated method stub
 		
 	}
